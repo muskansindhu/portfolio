@@ -1,0 +1,31 @@
+{
+  "career": [
+    {
+      "name": "TAOlie.ai Decentralized Compute Marketplace",
+      "href": "https://www.taolie.ai/",
+      "title": "Software Developer",
+      "logo": "/img/taolie.png",
+      "start": "July 2024",
+      "end": "Aug 2025",
+      "description": [
+        "Built an in-house solution with internal GraphQL APIs to extract over 1M records/hour from Twitter and Reddit.",
+        "Optimized and parallelized data pipelines using batching and caching, reducing external API costs by 90%.",
+        "Leveraged prompt engineering with OpenAI API to refine miner responses, boosting miner’s Bittensor ranking.",
+        "Developed a self-hosted Prometheus–Grafana dashboard for real-time miner performance monitoring."
+      ]
+    },
+    {
+      "name": "Deepgaze Technologies Pvt Ltd",
+      "href": "https://deepgazetech.com/",
+      "title": "Backend Engineer (Intern)",
+      "logo": "/img/deepgaze.png",
+      "start": "July 2023",
+      "end": "Sep 2023",
+      "description": [
+        "Developed APIs for Tensorflow LSTM Machine Learning Models and for integrating DB with React UI using Flask.",
+        "Prototyped deepfake image source detector by integrating the TinEye API and implementing the DeSI algorithm.",
+        "Contributed to data pre-processing for model training and RLHF process using libraries like Pandas and CSV."
+      ]
+    }
+  ]
+}

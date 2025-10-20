@@ -1,0 +1,27 @@
+{
+  "name": "Muskan Sindhu",
+  "short_name": "muskansindhu.tech",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#ffffff",
+  "description": "My personal site to showcase my developer work and opinions.",
+  "icons": [
+    {
+      "src": "/m-letter-logo.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/m-letter-logo.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/m-letter-logo.png",
+      "sizes": "180x180",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
+}

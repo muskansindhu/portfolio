@@ -1,0 +1,19 @@
+{
+  "socials": [
+    {
+      "name": "LinkedIn",
+      "href": "https://linkedin.com/in/muskansindhu",
+      "icon": "linkedin"
+    },
+    {
+      "name": "GitHub",
+      "href": "https://github.com/muskansindhu",
+      "icon": "github"
+    },
+    {
+      "name": "Email",
+      "href": "mailto:shunyamuskan@gmail.com",
+      "icon": "mail"
+    }
+  ]
+}

@@ -1,0 +1,94 @@
+{
+  "projects": [
+    {
+      "name": "Trackcrow",
+      "description": "Simplify your expense tracking effortlessly every day",
+      "image": "/img/trackcrow.png",
+      "tags": [
+        "NextJS",
+        "PostgreSQL",
+        "Vercel AI SDK",
+        "Docker",
+        "React",
+        "Google OAuth"
+      ],
+      "links": [
+        {
+          "name": "Website",
+          "href": "https://huatnumbers.com",
+          "icon": "globe"
+        },
+        {
+          "name": "Source",
+          "href": "https://github.com/tedawf/tt4d",
+          "icon": "github"
+        },
+        {
+          "name": "Source (UI)",
+          "href": "https://github.com/tedawf/tt4d-web",
+          "icon": "github"
+        }
+      ]
+    },
+    {
+      "name": "Dotmd",
+      "description": "Designed to create and customize beautiful README files easily",
+      "image": "/img/dotmd.png",
+      "tags": [
+        "Python",
+        "FLask",
+        "React",
+        "Docker",
+        "Gemini API",
+        "Github API"
+      ],
+      "links": [
+        {
+          "name": "Source",
+          "href": "https://github.com/tedawf/tradingview-telegram-alerts",
+          "icon": "github"
+        }
+      ]
+    },
+    {
+      "name": "Clipnote",
+      "description": "Your second brain for YouTube: notes, summaries, labels, and search seamlessly",
+      "href": "https://nftvue.vercel.app",
+      "image": "/img/clipnote.png",
+      "tags": [
+        "Python",
+        "Flask",
+        "PostgreSQL",
+        "Gemini API",
+        "Youtube Transcript API",
+        "APIFY"
+      ],
+      "links": [
+        {
+          "name": "Website",
+          "href": "https://nftvue.vercel.app",
+          "icon": "globe"
+        }
+      ]
+    },
+    {
+      "name": "Wavetalk",
+      "description": "Real-time chat application for seamless and secure conversations",
+      "href": "https://tedawf-dot-com.netlify.app",
+      "image": "/img/wavetalk.png",
+      "tags": ["Flask", "Python", "Web socket", "WebRTC"],
+      "links": [
+        {
+          "name": "Website",
+          "href": "https://tedawf-dot-com.netlify.app",
+          "icon": "globe"
+        },
+        {
+          "name": "Source",
+          "href": "https://github.com/tedawf/portfolio-2023",
+          "icon": "github"
+        }
+      ]
+    }
+  ]
+}

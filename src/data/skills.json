@@ -1,0 +1,18 @@
+[
+  { "name": "Python", "logo": "/skills/Python.svg" },
+  { "name": "AWS", "logo": "/skills/AWS.svg" },
+  { "name": "Docker", "logo": "/skills/Docker.svg" },
+  { "name": "Git", "logo": "/skills/Git.svg" },
+  { "name": "GCP", "logo": "/skills/Google Cloud.svg" },
+  { "name": "Grafana", "logo": "/skills/Grafana.svg" },
+  { "name": "JavaScript", "logo": "/skills/JavaScript.svg" },
+  { "name": "MongoDB", "logo": "/skills/MongoDB.svg" },
+  { "name": "Next.js", "logo": "/skills/Next.js.svg" },
+  { "name": "PostgreSQL", "logo": "/skills/PostgresSQL.svg" },
+  { "name": "Postman", "logo": "/skills/Postman.svg" },
+  { "name": "Prometheus", "logo": "/skills/Prometheus.svg" },
+  { "name": "React", "logo": "/skills/React.svg" },
+  { "name": "Selenium", "logo": "/skills/Selenium.svg" },
+  { "name": "TypeScript", "logo": "/skills/TypeScript.svg" },
+  { "name": "Vue", "logo": "/skills/Vue.js.svg" }
+]
