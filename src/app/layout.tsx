@@ -19,7 +19,7 @@ const calistoga = Calistoga({
 
 export const metadata: Metadata = {
   title: "Muskan Sindhu",
-  description: "My personal site to showcase my developer work and opinions.",
+  description: "My personal site to showcase my developer work.",
   icons: {
     icon: [
       { url: "/favicon.ico" },

@@ -117,9 +117,15 @@
     },
     {
       "name": "MoM-Bot",
-      "description": "A Discord bot that generates meeting minutes from voice channels using OpenAI's Whisper and GPT-3.5-Turbo",
-      "image": "/img/wavetalk.png",
-      "tags": ["Typescript", "Discord.js", "Node.js"],
+      "description": "A Discord bot that generates meeting minutes from voice channels.",
+      "image": "/img/mombot.png",
+      "tags": [
+        "Typescript",
+        "Discord.js",
+        "Node.js",
+        "Assembly AI",
+        "Gemini API"
+      ],
       "links": [
         {
           "name": "Source",

@@ -5,7 +5,7 @@
   "display": "standalone",
   "background_color": "#ffffff",
   "theme_color": "#ffffff",
-  "description": "My personal site to showcase my developer work and opinions.",
+  "description": "My personal site to showcase my developer work.",
   "icons": [
     {
       "src": "/m-letter-logo.png",
