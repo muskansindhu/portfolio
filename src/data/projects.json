@@ -3,6 +3,7 @@
     {
       "name": "Trackcrow",
       "description": "Simplify your expense tracking effortlessly every day",
+      "href": "https://trackcrow.online",
       "image": "/img/trackcrow.png",
       "tags": [
         "NextJS",
@@ -15,24 +16,20 @@
       "links": [
         {
           "name": "Website",
-          "href": "https://huatnumbers.com",
+          "href": "https://trackcrow.online",
           "icon": "globe"
         },
         {
           "name": "Source",
-          "href": "https://github.com/tedawf/tt4d",
-          "icon": "github"
-        },
-        {
-          "name": "Source (UI)",
-          "href": "https://github.com/tedawf/tt4d-web",
+          "href": "https://github.com/adhirajpandey/trackcrow",
           "icon": "github"
         }
       ]
     },
     {
-      "name": "Dotmd",
+      "name": "DotMd",
       "description": "Designed to create and customize beautiful README files easily",
+      "href": "https://dotmd.muskansindhu.tech/",
       "image": "/img/dotmd.png",
       "tags": [
         "Python",
@@ -44,8 +41,13 @@
       ],
       "links": [
         {
+          "name": "Website",
+          "href": "https://dotmd.muskansindhu.tech/",
+          "icon": "globe"
+        },
+        {
           "name": "Source",
-          "href": "https://github.com/tedawf/tradingview-telegram-alerts",
+          "href": "https://github.com/muskansindhu/DotMd",
           "icon": "github"
         }
       ]
@@ -53,7 +55,7 @@
     {
       "name": "Clipnote",
       "description": "Your second brain for YouTube: notes, summaries, labels, and search seamlessly",
-      "href": "https://nftvue.vercel.app",
+      "href": "https://clipnote.muskansindhu.tech/",
       "image": "/img/clipnote.png",
       "tags": [
         "Python",
@@ -66,26 +68,88 @@
       "links": [
         {
           "name": "Website",
-          "href": "https://nftvue.vercel.app",
+          "href": "https://clipnote.muskansindhu.tech/",
           "icon": "globe"
+        },
+        {
+          "name": "Source",
+          "href": "https://github.com/muskansindhu/Clipnote",
+          "icon": "github"
         }
       ]
     },
     {
       "name": "Wavetalk",
       "description": "Real-time chat application for seamless and secure conversations",
-      "href": "https://tedawf-dot-com.netlify.app",
+      "href": "https://wavetalk.muskansindhu.tech/",
       "image": "/img/wavetalk.png",
       "tags": ["Flask", "Python", "Web socket", "WebRTC"],
       "links": [
         {
           "name": "Website",
-          "href": "https://tedawf-dot-com.netlify.app",
+          "href": "https://wavetalk.muskansindhu.tech/",
           "icon": "globe"
         },
         {
           "name": "Source",
-          "href": "https://github.com/tedawf/portfolio-2023",
+          "href": "https://github.com/muskansindhu/WaveTalk",
+          "icon": "github"
+        }
+      ]
+    },
+    {
+      "name": "Ticket-Show",
+      "description": "Web App to browse and book movie tickets easily",
+      "image": "/img/ticketshow.png",
+      "tags": ["Flask", "Python", "Vue.js", "SQLite", "RESTful API"],
+      "links": [
+        {
+          "name": "Source",
+          "href": "https://github.com/muskansindhu/Ticket-Show",
+          "icon": "github"
+        },
+        {
+          "name": "Video",
+          "href": "https://drive.google.com/file/d/1sDCBLkwpuO4RPtE5tMH7XQmsmDK2kToM/view",
+          "icon": "video"
+        }
+      ]
+    },
+    {
+      "name": "MoM-Bot",
+      "description": "A Discord bot that generates meeting minutes from voice channels using OpenAI's Whisper and GPT-3.5-Turbo",
+      "image": "/img/wavetalk.png",
+      "tags": ["Typescript", "Discord.js", "Node.js"],
+      "links": [
+        {
+          "name": "Source",
+          "href": "https://github.com/muskansindhu/MoM-bot",
+          "icon": "github"
+        }
+      ]
+    },
+    {
+      "name": "Grademate",
+      "description": "Grade calculator for IITM BS Data Science and Applications courses",
+      "image": "/img/grademate.png",
+      "tags": ["Flask", "Python", "HTML5", "CSS"],
+      "links": [
+        {
+          "name": "Source",
+          "href": "https://github.com/muskansindhu/Grademate",
+          "icon": "github"
+        }
+      ]
+    },
+    {
+      "name": "Dinohop",
+      "description": "Endless runner game built Kaboom.js where the dinosaur jumps over obstacles to score points",
+      "image": "/img/dinohop.png",
+      "tags": ["Kaboom.js", "JavaScript", "HTML5", "CSS"],
+      "links": [
+        {
+          "name": "Source",
+          "href": "https://github.com/muskansindhu/Dinohop",
           "icon": "github"
         }
       ]
