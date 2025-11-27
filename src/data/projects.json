@@ -117,7 +117,7 @@
     },
     {
       "name": "MoM-Bot",
-      "description": "A Discord bot that generates meeting minutes from voice channels.",
+      "description": "A Discord bot that generates meeting minutes from voice channels",
       "image": "/img/mombot.png",
       "tags": [
         "Typescript",
