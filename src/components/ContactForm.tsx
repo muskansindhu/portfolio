@@ -38,7 +38,6 @@ export default function ContactForm() {
     resolver: zodResolver(ContactFormSchema),
     defaultValues: {
       name: "",
-      email: "",
       message: "",
     },
   });
@@ -69,9 +68,13 @@ export default function ContactForm() {
       return;
     }
 
-    toast.success("Message sent successfully!");
-    reset();
-    setFormData(null);
+    // Open user's email client with pre-filled message
+    if (result.mailtoUrl) {
+      window.location.href = result.mailtoUrl;
+      toast.success("Opening your email client...");
+      reset();
+      setFormData(null);
+    }
   };
 
   return (
@@ -86,7 +89,7 @@ export default function ContactForm() {
           className="pointer-events-none absolute -left-[9999px] opacity-0"
         />
 
-        <div className="grid grid-cols-1 gap-2 sm:grid-cols-2">
+        <div className="grid grid-cols-1 gap-2">
           {/* Name */}
           <div className="h-16">
             <Input
@@ -102,23 +105,8 @@ export default function ContactForm() {
             )}
           </div>
 
-          {/* Email */}
-          <div className="h-16">
-            <Input
-              id="email"
-              type="email"
-              placeholder="Email"
-              autoComplete="email"
-              {...register("email")}
-            />
-
-            {errors.email?.message && (
-              <p className="input-error">{errors.email.message}</p>
-            )}
-          </div>
-
           {/* Message */}
-          <div className="h-32 sm:col-span-2">
+          <div className="h-32">
             <Textarea
               rows={4}
               placeholder="Leave feedback about the site, career opportunities or just to say hello etc."
@@ -156,22 +144,21 @@ export default function ContactForm() {
       <AlertDialog open={showConfirmDialog} onOpenChange={setShowConfirmDialog}>
         <AlertDialogContent>
           <AlertDialogHeader>
-            <AlertDialogTitle>Just a quick check! 🤔</AlertDialogTitle>
+            <AlertDialogTitle>Ready to send? 🚀</AlertDialogTitle>
             <AlertDialogDescription asChild>
               <div>
                 <p>
-                  Hey! Remember to use a real email so I can reply you
-                  personally.
+                  This will open your email client with the message pre-filled.
+                  You can review and send it from there.
                 </p>
                 <p className="mt-4 font-medium">
-                  I&apos;ll be sending my reply to:{" "}
-                  <span className="text-foreground">{formData?.email}</span>
+                  Your message will be sent from your email app.
                 </p>
               </div>
             </AlertDialogDescription>
           </AlertDialogHeader>
           <AlertDialogFooter>
-            <AlertDialogCancel>Let me fix that</AlertDialogCancel>
+            <AlertDialogCancel>Cancel</AlertDialogCancel>
             <AlertDialogAction onClick={processForm} disabled={isSubmitting}>
               {isSubmitting ? (
                 <>

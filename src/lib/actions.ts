@@ -1,11 +1,7 @@
 "use server";
 
-import ContactFormEmail from "@/components/email/ContactFormEmail";
-import { Resend } from "resend";
 import { z } from "zod";
 import { ContactFormSchema } from "./schemas";
-
-const resend = new Resend(process.env.RESEND_API_KEY);
 
 type ContactFormInputs = z.infer<typeof ContactFormSchema>;
 
@@ -17,23 +13,18 @@ export async function sendEmail(data: ContactFormInputs) {
   }
 
   try {
-    const { name, email, message } = result.data;
-    const { data, error } = await resend.emails.send({
-      from: `muskansindhu.tech <contact@muskansindhu.tech>`,
-      to: "hello@muskansindhu.tech",
-      replyTo: [email],
-      cc: [email],
-      subject: `New message from ${name}!`,
-      text: `Name:\n${name}\n\nEmail:\n${email}\n\nMessage:\n${message}`,
-      // react: ContactFormEmail({ name, email, message }),
-    });
+    const { name, message } = result.data;
 
-    if (!data || error) {
-      console.error(error?.message);
-      throw new Error("Failed to send email!");
-    }
+    // Create mailto URL with pre-filled content
+    const subject = encodeURIComponent(`Message from ${name}`);
+    const body = encodeURIComponent(message);
+    const mailtoUrl = `mailto:shunyamuskan@gmail.com?subject=${subject}&body=${body}`;
 
-    return { success: true };
+    return {
+      success: true,
+      mailtoUrl,
+      data: result.data
+    };
   } catch (error) {
     return { error };
   }

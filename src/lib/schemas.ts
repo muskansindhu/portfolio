@@ -5,14 +5,12 @@ export const ContactFormSchema = z.object({
   name: z
     .string()
     .min(1, { message: "Name is required." })
-    .min(2, { message: "Must be at least 2 characters." }),
-  email: z
+    .min(2, { message: "Name must be at least 2 characters." }),
+  message: z
     .string()
-    .min(1, { message: "Email is required." })
-    .email("Invalid email."),
-  message: z.string().min(1, { message: "Message is required." }),
+    .min(1, { message: "Message is required." })
+    .min(10, { message: "Message must be at least 10 characters." }),
 });
-
 const iconLink = z.object({
   name: z.string(),
   href: z.string().url(),
