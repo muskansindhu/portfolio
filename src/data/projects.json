@@ -3,6 +3,14 @@
     {
       "name": "Trackcrow",
       "description": "Simplify your expense tracking effortlessly every day",
+      "longDescription": "TrackCrow is an intelligent expense tracking application that automatically extracts and categorizes transactions from SMS notifications, providing powerful insights to help you manage your finances effortlessly.",
+      "features": [
+        "Automatic SMS extraction and transaction categorization",
+        "Smart dashboard with visual analytics and spending insights",
+        "AI-powered suggestions to optimize spending habits",
+        "Custom expense categories with manual entry options",
+        "Comprehensive data visualization through charts and graphs"
+      ],
       "href": "https://trackcrow.online",
       "image": "/img/trackcrow.png",
       "tags": [
@@ -29,6 +37,14 @@
     {
       "name": "DotMd",
       "description": "Designed to create and customize beautiful README files easily",
+      "longDescription": "DotMd is a powerful markdown editor designed to help developers create and customize beautiful README files with ease, featuring an intuitive drag-and-drop interface and live preview.",
+      "features": [
+        "Drag-and-drop interface for easy section management",
+        "Customizable templates to jumpstart your documentation",
+        "Live preview with real-time Markdown rendering",
+        "Export to multiple formats: Markdown, HTML, or plain text",
+        "Full Markdown support with syntax highlighting"
+      ],
       "href": "https://dotmd.muskansindhu.tech/",
       "image": "/img/dotmd.png",
       "tags": [
@@ -55,6 +71,15 @@
     {
       "name": "Clipnote",
       "description": "Your second brain for YouTube: notes, summaries, labels, and search seamlessly",
+      "longDescription": "Clipnote is a Chrome extension that transforms how you interact with YouTube content, allowing timestamped notes and AI-powered summaries while maintaining complete privacy through self-hosted storage.",
+      "features": [
+        "Timestamped notes synchronized with video playback",
+        "AI-powered context-aware note generation",
+        "Interactive dashboard with full-text search across videos",
+        "One-click 5-point video summaries",
+        "Label system for organizing related content",
+        "Self-hosted backend for complete data privacy"
+      ],
       "href": "https://clipnote.muskansindhu.tech/",
       "image": "/img/clipnote.png",
       "tags": [
@@ -81,9 +106,22 @@
     {
       "name": "Wavetalk",
       "description": "Real-time chat application for seamless and secure conversations",
+      "longDescription": "WaveTalk is a real-time communication platform combining text chat and peer-to-peer video capabilities, built with WebSocket and WebRTC technology for seamless conversations.",
+      "features": [
+        "Real-time messaging with WebSocket technology",
+        "Peer-to-peer video chat capabilities",
+        "Room creation and joining with custom codes",
+        "User authentication for secure access",
+        "Clean, intuitive interface for easy navigation"
+      ],
       "href": "https://wavetalk.muskansindhu.tech/",
       "image": "/img/wavetalk.png",
-      "tags": ["Flask", "Python", "Web socket", "WebRTC"],
+      "tags": [
+        "Flask",
+        "Python",
+        "Web socket",
+        "WebRTC"
+      ],
       "links": [
         {
           "name": "Website",
@@ -100,8 +138,23 @@
     {
       "name": "Ticket-Show",
       "description": "Web App to browse and book movie tickets easily",
+      "longDescription": "Ticket-Show is a comprehensive theater booking platform with separate user and admin dashboards, featuring show management, analytics, and automated email reminders.",
+      "features": [
+        "Browse and search available shows across multiple theaters",
+        "Admin dashboard with full CRUD operations for theaters and shows",
+        "Visual analytics and charts for booking insights",
+        "CSV export for data analysis",
+        "Daily booking reminders and monthly entertainment reports via email",
+        "RESTful API with authentication"
+      ],
       "image": "/img/ticketshow.png",
-      "tags": ["Flask", "Python", "Vue.js", "SQLite", "RESTful API"],
+      "tags": [
+        "Flask",
+        "Python",
+        "Vue.js",
+        "SQLite",
+        "RESTful API"
+      ],
       "links": [
         {
           "name": "Source",
@@ -118,6 +171,14 @@
     {
       "name": "MoM-Bot",
       "description": "A Discord bot that generates meeting minutes from voice channels",
+      "longDescription": "MoM-Bot is an intelligent Discord bot that automatically transcribes voice channel conversations and generates AI-powered meeting summaries, eliminating manual note-taking.",
+      "features": [
+        "Live voice transcription using AssemblyAI streaming API",
+        "AI-generated bullet-point summaries with Google Gemini",
+        "Automatic posting of summaries to designated channels",
+        "Local transcript storage with metadata",
+        "TypeScript for full type safety"
+      ],
       "image": "/img/mombot.png",
       "tags": [
         "Typescript",
@@ -137,8 +198,21 @@
     {
       "name": "Grademate",
       "description": "Grade calculator for IITM BS Data Science and Applications courses",
+      "longDescription": "GradeMate is a specialized grade calculator for IITM BS Data Science students, providing instant and accurate grade calculations based on the latest curriculum weightings.",
+      "features": [
+        "Pre-defined course selection for IITM BS program",
+        "Custom course configuration support",
+        "Input scores for assignments, quizzes, exams, and projects",
+        "Instant grade calculation with accurate weightings",
+        "Clean, intuitive interface for easy navigation"
+      ],
       "image": "/img/grademate.png",
-      "tags": ["Flask", "Python", "HTML5", "CSS"],
+      "tags": [
+        "Flask",
+        "Python",
+        "HTML5",
+        "CSS"
+      ],
       "links": [
         {
           "name": "Source",
@@ -150,8 +224,21 @@
     {
       "name": "Dinohop",
       "description": "Endless runner game built Kaboom.js where the dinosaur jumps over obstacles to score points",
+      "longDescription": "Dinohop is a browser-based endless runner game where players control a dinosaur jumping over obstacles, with progressively increasing difficulty and responsive controls.",
+      "features": [
+        "Responsive controls: spacebar, click, or tap",
+        "Progressively increasing difficulty and speed",
+        "Score tracking and high score challenges",
+        "Clean, simple UI built with Kaboom.js",
+        "Lightweight and runs smoothly in any browser"
+      ],
       "image": "/img/dinohop.png",
-      "tags": ["Kaboom.js", "JavaScript", "HTML5", "CSS"],
+      "tags": [
+        "Kaboom.js",
+        "JavaScript",
+        "HTML5",
+        "CSS"
+      ],
       "links": [
         {
           "name": "Source",
