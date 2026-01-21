@@ -13,10 +13,21 @@ import {
 import Link from "next/link";
 import Skills from "@/components/Skills";
 
-const MUSKAN_BIRTH_YEAR = 2002;
+const MUSKAN_BIRTH_DATE = new Date(2002, 3, 11);
 const LIMIT = 2; // max show 2
 
 export default async function Home() {
+  const today = new Date();
+  let age = today.getFullYear() - MUSKAN_BIRTH_DATE.getFullYear();
+
+  if (
+    today.getMonth() < MUSKAN_BIRTH_DATE.getMonth() ||
+    (today.getMonth() === MUSKAN_BIRTH_DATE.getMonth() &&
+      today.getDate() < MUSKAN_BIRTH_DATE.getDate())
+  ) {
+    age--;
+  }
+
   return (
     <article className="mt-8 flex flex-col gap-16 pb-16">
       <section className="flex flex-col items-start gap-8 md:flex-row-reverse md:items-center md:justify-between">
@@ -28,8 +39,7 @@ export default async function Home() {
           </h1>
 
           <p className="mt-2 whitespace-nowrap text-sm font-medium sm:text-base">
-            {new Date().getFullYear() - MUSKAN_BIRTH_YEAR}
-            yo software engineer from India 🇮🇳
+            {age}yo software engineer from India 🇮🇳
           </p>
 
           <p className="mt-4 max-w-sm text-balance text-sm sm:text-base">
