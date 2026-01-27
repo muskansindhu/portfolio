@@ -1,5 +1,6 @@
 import Footer from "@/components/Footer";
 import Header from "@/components/Header";
+import Background from "@/components/Background";
 import Providers from "@/components/Providers";
 import { cn } from "@/lib/utils";
 import type { Metadata } from "next";
@@ -45,6 +46,7 @@ export default function RootLayout({
         )}
       >
         <Providers>
+          <Background />
           <Header />
           <div className="mx-auto flex max-w-3xl flex-col px-8">
             <main className="grow">{children}</main>
