@@ -10,18 +10,6 @@
       "description": [
         "Graduated with a Minor in Economics",
         "Group Leader for Group 302 (Ranchi Zone) in the 2021-2022 academic year"
-      ],
-      "links": [
-        {
-          "name": "Final Year Project",
-          "href": "https://games.digipen.edu/games/rapid-ride-fight",
-          "icon": "globe"
-        },
-        {
-          "name": "2nd Year Project",
-          "href": "https://games.digipen.edu/games/glowing-under",
-          "icon": "globe"
-        }
       ]
     },
     {
@@ -30,14 +18,7 @@
       "title": "Bachelors of Vocation in Web Designing",
       "logo": "/img/du.png",
       "start": "2019",
-      "end": "2022",
-      "links": [
-        {
-          "name": "Final Year Project",
-          "href": "https://tedawf.github.io/portfolio-2019/phase.html",
-          "icon": "globe"
-        }
-      ]
+      "end": "2022"
     }
   ]
 }
