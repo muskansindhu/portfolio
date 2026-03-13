@@ -8,10 +8,12 @@
       "start": "July 2024",
       "end": "Aug 2025",
       "description": [
-        "Built an in-house solution with internal GraphQL APIs to extract over 1M records/hour from Twitter and Reddit.",
-        "Optimized and parallelized data pipelines using batching and caching, reducing external API costs by 90%.",
-        "Leveraged prompt engineering with OpenAI API to refine miner responses, boosting miner’s Bittensor ranking.",
-        "Developed a self-hosted Prometheus–Grafana dashboard for real-time miner performance monitoring."
+        "Engineered a high-throughput distributed data ingestion pipeline processing 24M+ records/day; collected, normalized, and streamed multi-source data into the Bittensor network.",
+        "Designed a queue-backed batch processing system with async worker pools and adaptive rate limiting, reducing operational costs by 96%.",
+        "Built a geo-aware account warm-up and rotation framework with intelligent request routing to preserve account health and prevent platform bans across regions.",
+        "Built a cross-platform search engine that rewrote user queries into platform-specific API calls, applying LLM-based re-ranking to improve contextual relevance.",
+        "Engineered a containerized miner deployment system for Bittensor mainnet, automating wallet creation, subnet registration, and horizontal scaling workflows.",
+        "Implemented a Prometheus and Grafana observability stack tracking incentives, request latency, and error rates."
       ]
     },
     {
@@ -22,9 +24,9 @@
       "start": "July 2023",
       "end": "Sep 2023",
       "description": [
-        "Developed APIs for Tensorflow LSTM Machine Learning Models and for integrating DB with React UI using Flask.",
-        "Prototyped deepfake image source detector by integrating the TinEye API and implementing the DeSI algorithm.",
-        "Contributed to data pre-processing for model training and RLHF process using libraries like Pandas and CSV."
+        "Developed REST APIs to connect React UI with in-house TensorFlow LSTM models for real-time ML inference.",
+        "Built a deepfake source identification pipeline using reverse image search APIs to trace manipulated image origin.",
+        "Contributed to data preprocessing pipelines and RLHF fine-tuning workflows to improve model training accuracy."
       ]
     }
   ]
